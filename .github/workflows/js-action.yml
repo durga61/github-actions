@@ -1,6 +1,8 @@
 name: Simple JS Actions
 on:
   push:
+  pull_request:
+
 jobs:
   simple-js-action:
     runs-on: ubuntu-latest
