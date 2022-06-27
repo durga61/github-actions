@@ -2,6 +2,7 @@ name: Simple JS Actions
 on:
   push:
   pull_request:
+    types: [closed,assigned,reopened,opened]
 
 jobs:
   simple-js-action:
