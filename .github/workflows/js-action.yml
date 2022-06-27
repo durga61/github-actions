@@ -12,3 +12,9 @@ jobs:
           who-to-greet: Durgaprasad
       - name: Log greeting time
         run: echo "${{ steps.greet.outputs.time }}"
+      - name: Checkout
+        uses: actions/checkout@v1
+      - name: List files
+        run: |
+          pwd
+          ls -ltr
